@@ -1,7 +1,7 @@
 // #region page
 
 html {
-  font-family: "Cinzel", serif;
+  font-family: Cinzel, serif;
   font-size: 16px;
   line-height: 1.7em;
   color: #161616;
@@ -13,9 +13,10 @@ body {
 }
 
 .text-description {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
 }
+
 // #endregion
 
 // #region header
@@ -86,8 +87,8 @@ body {
   position: relative;
 }
 
-.menu-button-line:before,
-.menu-button-line:after {
+.menu-button-line::before,
+.menu-button-line::after {
   content: '';
   background-color: #fff;
   width: 100%;
@@ -99,24 +100,25 @@ body {
   transform-origin: left;
 }
 
-.menu-button-line:before {
+.menu-button-line::before {
   transform: translateY(-5px);
 }
 
-.menu-button-line:after {
+.menu-button-line::after {
   transform: translateY(5px);
 }
 
 .icon--menu-button:hover {
 
-  .menu-button-line:before {
+  .menu-button-line::before {
     transform: translateY(-5px) scaleX(75%);
   }
 
-  .menu-button-line:after {
+  .menu-button-line::after {
     transform: translateY(5px) scaleX(50%);
   }
 }
+
 // #endregion
 // #endregion
 
@@ -138,6 +140,7 @@ body {
   margin: 0;
   transform: translateY(-100%);
 }
+
 // #endregion
 // #endregion
 
@@ -177,4 +180,5 @@ body {
 .icon--close:hover {
   opacity: .7;
 }
+
 // #endregion

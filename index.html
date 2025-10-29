@@ -1,3 +1,4 @@
+<!-- #region head -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,7 +7,20 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Landing Page</title>
+    <title>THE MET</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet">
+    <link
+      rel="icon"
+      href="src/images/logo.png">
     <link
       rel="stylesheet"
       href="src/styles/main.scss"
@@ -16,7 +30,64 @@
       defer
     ></script>
   </head>
+  <!-- endregion -->
+
   <body>
-    <h1>Landing Page</h1>
+    <!-- #region header -->
+    <header class="header">
+      <div class="header__top">
+        <a href="#" class="home-link">
+          <img
+            src="src/images/logo.png"
+            alt="The Met logo"
+            class="logo">
+        </a>
+
+        <div class="icons">
+          <a href="#" class="icon icon--phone"></a>
+          <a href="#menu" class="icon icon--menu-button">
+            <span class="menu-button-line"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="header__cover">
+        <h1 class="header__title">Welcome
+          <br>
+          to The MET
+        </h1>
+      </div>
+    </header>
+
+    <aside class="menu" id="menu">
+      <div class="menu__top">
+        <a href="#" class="home-link">
+          <img
+            src="src/images/logo.png"
+            alt="The Met logo"
+            class="logo">
+        </a>
+
+        <div class="icons">
+          <a href="#" class="icon icon--close"></a>
+        </div>
+      </div>
+    </aside>
+    <!-- endregion -->
+
+    <!-- #region main -->
+    <main class="main">
+      <section class="section working-hours"></section>
+      <section class="section on-view"></section>
+      <section class="section explore-online"></section>
+      <section class="section contact-us"></section>
+    </main>
+    <!-- endregion -->
+
+    <!-- #region footer -->
+    <footer class="footer">
+
+    </footer>
+    <!-- endregion -->
   </body>
 </html>

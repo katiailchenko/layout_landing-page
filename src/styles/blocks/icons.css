@@ -1,0 +1,80 @@
+/* #region icons */
+.icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url(../images/icons/icon-phone.svg);
+  transition: opacity 0.2s ease-in;
+}
+
+.icon--phone:hover {
+  opacity: 0.7;
+}
+
+.icon--close {
+  background-image: url(../images/icons/icon-close.svg);
+  transition: opacity 0.2s ease-in;
+}
+
+.icon--close:hover {
+  opacity: 0.7;
+}
+
+.icon--menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #region icon_menu-button */
+.menu-button-line {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  position: relative;
+}
+
+.menu-button-line::before,
+.menu-button-line::after {
+  content: '';
+  background-color: #fff;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  transition: transform 0.2s ease-out;
+  transform-origin: left;
+}
+
+.menu-button-line::before {
+  transform: translateY(-5px);
+}
+
+.menu-button-line::after {
+  transform: translateY(5px);
+}
+
+.icon--menu-button:hover {
+  .menu-button-line::before {
+    transform: translateY(-5px) scaleX(75%);
+  }
+
+  .menu-button-line::after {
+    transform: translateY(5px) scaleX(50%);
+  }
+}
+
+/* #endregion */
+
+/* #endregion */

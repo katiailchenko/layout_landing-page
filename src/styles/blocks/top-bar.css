@@ -1,0 +1,22 @@
+/* #region top-bar */
+.top-bar {
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-link {
+  transition: opacity 0.2s ease-in;
+}
+
+.home-link:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  width: 64px;
+  height: 46px;
+}
+
+/* #endregion */

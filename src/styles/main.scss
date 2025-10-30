@@ -36,6 +36,16 @@
 
 // #endregion
 
+// #region top-bar
+.top-bar {
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// #endregion
+
 // #region header
 .header {
   box-sizing: border-box;
@@ -43,18 +53,11 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-  padding: 25px 20px;
   display: flex;
   flex-direction: column;
 }
 
 // #region header__top
-.header__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .home-link {
   transition: opacity 0.2s ease-in;
 }
@@ -157,6 +160,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-inline: 20px;
 }
 
 .header__title {
@@ -176,7 +180,6 @@
 // #region menu
 .menu {
   background-color: #d12d35;
-  padding: 25px 20px 30px;
   height: 100vh;
   box-sizing: border-box;
   text-transform: uppercase;
@@ -184,10 +187,12 @@
 }
 
 .menu__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-bottom: 30px;
   margin-bottom: 40px;
+}
+
+.menu__main {
+  padding-inline: 20px;
 }
 
 .menu__nav {

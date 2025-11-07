@@ -1,0 +1,22 @@
+/* #region buttons style */
+.main-button {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: #fff;
+  line-height: 56px;
+  background-color: #D12D35;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color .2s linear;
+}
+
+.main-button:hover {
+  background-color: #AE1C23;
+}
+
+.main-button:focus {
+  background-color: #EB343D;
+}
+
+/* #endregion */

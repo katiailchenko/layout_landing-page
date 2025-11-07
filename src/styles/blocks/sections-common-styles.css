@@ -1,0 +1,42 @@
+/* #region section style */
+
+/* #region working-hours section */
+.working-hours__accent {
+  color: #D12D35;
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-bottom: 2px;
+}
+
+.working-hours__title {
+  margin-bottom: 32px;
+}
+
+.working-hours__location {
+  margin-bottom: 24px;
+}
+
+/* #endregion */
+
+/* #region on-view section */
+.on-view__title {
+  margin-bottom: 8px;
+}
+
+.on-view__description {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.on-view__exhibitions-block {
+  margin-bottom: 40px;
+}
+
+.on-view__exhibition:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+/* #endregion */
+
+/* #endregion */

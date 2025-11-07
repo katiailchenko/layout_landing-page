@@ -9,6 +9,7 @@
 
 .page__body {
   margin: 0;
+  padding: 0 20px;
 }
 
 .page__description {
@@ -31,6 +32,22 @@
   opacity: 1;
   pointer-events: all;
   transition: opacity 0.2s linear;
+}
+
+.page__section {
+  margin-top: 100px;
+}
+
+.page__section-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1em;
+  letter-spacing: -1.5px;
+  margin: 0;
+}
+
+.page__section-title--center {
+  text-align: center;
 }
 
 /* #endregion */

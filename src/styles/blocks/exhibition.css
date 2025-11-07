@@ -1,0 +1,41 @@
+/* #region exhibition section style */
+.exhibition__pictures {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 20px;
+}
+
+.exhibition__pictures-thre {
+  gap: 8px;
+}
+
+.exhibition__img {
+  width: calc(50% - 12px);
+  object-fit: cover;
+}
+
+.exhibition__img--left-pos {
+  object-position: 20%;
+}
+
+.exhibition__img--right-pos {
+  object-position: right;
+}
+
+.exhibition__img--thre {
+  width: calc(33.33% - (16px / 3));
+  object-fit: cover;
+}
+
+.exhibition__title {
+  color: #D12D35;
+  font-weight: 700;
+  margin: 0;
+}
+
+.exhibition__date {
+  margin: 0;
+}
+
+/* #endregion */
